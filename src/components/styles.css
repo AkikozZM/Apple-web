@@ -1,0 +1,53 @@
+.navbar-header {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-list {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.navbar-list-item {
+  padding: 10px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  color: gray;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-list-item:hover {
+  color: white;
+}
+.navbar-list-icon {
+  display: flex;
+  align-items: baseline;
+  gap: 1.75rem;
+}
+.hero-section {
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .navbar-header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .navbar-list {
+    display: none;
+  }
+  .navbar-list-icon {
+    justify-content: flex-end;
+    flex: 1;
+  }
+}
