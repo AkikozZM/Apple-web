@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import { highlightsSlides } from "../constants";
 import { pauseImg, replayImg, playImg } from "../utils";
 gsap.registerPlugin(ScrollTrigger);
